@@ -15,7 +15,7 @@ C:/FIlls_data_PC/Fork/Building_Playfull_Worlds_3_testing_3/Building_Playfull_Wor
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57678
+62898
 Successfully changed project path to: C:/FIlls_data_PC/Fork/Building_Playfull_Worlds_3_testing_3/Building_Playfull_Worlds_2_test/Building_Playfull_World_2_Git_Backup
 C:/FIlls_data_PC/Fork/Building_Playfull_Worlds_3_testing_3/Building_Playfull_Worlds_2_test/Building_Playfull_World_2_Git_Backup
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/FIlls_data_PC/Fork/Building_Playfull_Worlds_3_testing_3/Building_Playfull_Wor
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11536] Host "[IP] 192.168.2.49 [Port] 0 [Flags] 2 [Guid] 3545636780 [EditorId] 3545636780 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QO9H7M4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16404] Host "[IP] 192.168.2.35 [Port] 0 [Flags] 2 [Guid] 281422782 [EditorId] 281422782 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QO9H7M4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11536] Host "[IP] 192.168.2.49 [Port] 0 [Flags] 2 [Guid] 3545636780 [EditorId] 3545636780 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QO9H7M4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16404] Host "[IP] 192.168.2.35 [Port] 0 [Flags] 2 [Guid] 281422782 [EditorId] 281422782 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QO9H7M4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 140.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,42 +67,282 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004976 seconds.
+Registered in 0.005619 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 127.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  0.647 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (647ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (171ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (523ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (126ms)
+				RefreshPlugins (128ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010128 seconds.
+Registered in 0.008859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\FIlls_data_PC\Fork\Building_Playfull_Worlds_3_testing_3\Building_Playfull_Worlds_2_test\Building_Playfull_World_2_Git_Backup\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\FIlls_data_PC\Fork\Building_Playfull_Worlds_3_testing_3\Building_Playfull_Worlds_2_test\Building_Playfull_World_2_Git_Backup\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 133.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (700ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6255 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (3.2 MB). Loaded Objects now: 6736.
+Memory consumption went from 298.7 MB to 295.4 MB.
+Total: 5.073900 ms (FindLiveObjects: 0.635500 ms CreateObjectMapping: 0.223000 ms MarkObjects: 3.063600 ms  DeleteObjects: 1.150200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1568443.052254 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_1.asset
+  artifactKey: Guid(193afb428f6c35b47a0b5923e105033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_1.asset using Guid(193afb428f6c35b47a0b5923e105033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b04b55b913cb4afcd7ccfbbbbf3bef') in 0.138941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_2.asset
+  artifactKey: Guid(22ed14c1b59179c4392f6c57702fca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_2.asset using Guid(22ed14c1b59179c4392f6c57702fca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522ddfb04cb977ac5a1ab39eb6a429f1') in 0.029714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_14.asset
+  artifactKey: Guid(3cbdc5c7b8e63f04486e8cda10fe105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_14.asset using Guid(3cbdc5c7b8e63f04486e8cda10fe105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d224b389b713db19fe63d7d4a92d5a') in 0.036133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_5.asset
+  artifactKey: Guid(e4834153a0330b0478c86d8e610a38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_5.asset using Guid(e4834153a0330b0478c86d8e610a38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0ec2f4144caaf059e7cd5c26f99e82') in 0.031238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Skybox/Textures/Afternoon_Skybox.hdr
+  artifactKey: Guid(4f8405359dce52b41851d5cf17778811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Skybox/Textures/Afternoon_Skybox.hdr using Guid(4f8405359dce52b41851d5cf17778811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b8c4ce87213eb3b894a812127101bb') in 0.321754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_20.asset
+  artifactKey: Guid(08fe86349b0b6aa4eb0c66db140bdd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_20.asset using Guid(08fe86349b0b6aa4eb0c66db140bdd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12b3ef661db2c9947e52864ffcf0031') in 0.036900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_8.asset
+  artifactKey: Guid(708d80c1a5a45704abfe679a65315dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_8.asset using Guid(708d80c1a5a45704abfe679a65315dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b852b09249c4b293804a1358b5494') in 0.035373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_16.asset
+  artifactKey: Guid(ec4d17fef0eb42a4380ebd6067ee6167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/DetailMaps/_Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43_16.asset using Guid(ec4d17fef0eb42a4380ebd6067ee6167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d23731c549e1ade0573f465aa291c2') in 0.037894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.246125 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_BaseColor.tif
+  artifactKey: Guid(b39336e67b68db14aa4a8a7f883e5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_BaseColor.tif using Guid(b39336e67b68db14aa4a8a7f883e5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f2f9a103eb236d3037d92eb5ef4514') in 0.040540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_B/Grass_B_BaseColor.tif
+  artifactKey: Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_B/Grass_B_BaseColor.tif using Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a96a18d535c1f5f42f0e1b647199ea7') in 0.029105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_A_Normal.tif
+  artifactKey: Guid(9a1568052101f2f48ba76e7342adc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_A_Normal.tif using Guid(9a1568052101f2f48ba76e7342adc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56afbb66f92717600d315f86352a8ee3') in 0.031612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_MaskMap.tif
+  artifactKey: Guid(87880352f37bcc74aa75c12321325d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_MaskMap.tif using Guid(87880352f37bcc74aa75c12321325d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb8c026a748ffd5467446eb7402694') in 0.034938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_Height.tif
+  artifactKey: Guid(ead3bd7836962e743855a9128fa46c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_A/Grass_A_Height.tif using Guid(ead3bd7836962e743855a9128fa46c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b11d94cdaf4ccb506f161c003ed0ed') in 0.030011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529201 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_B/Grass_B_Normal.tif
+  artifactKey: Guid(eb70932bab3d971408c011dbb45767a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_B/Grass_B_Normal.tif using Guid(eb70932bab3d971408c011dbb45767a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c3f17d3646cca79a4f221cdb980a79') in 0.033192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_Dry_BaseColor.tif
+  artifactKey: Guid(2219c27af867fbf4f9dfdf66ee6ffd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_Dry_BaseColor.tif using Guid(2219c27af867fbf4f9dfdf66ee6ffd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563feb155c03a629ad845fd23f4a202a') in 0.028636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_Dry_MaskMap.tif
+  artifactKey: Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_Dry_MaskMap.tif using Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c84bc2a945f9a5f8c030789330d0455') in 0.027496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_Normal.tif
+  artifactKey: Guid(eef0943283c17334eae49af84b383dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_Normal.tif using Guid(eef0943283c17334eae49af84b383dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641c77f66c7d21397b74f6eb1ef33fa0') in 0.031953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_Albedo.tif
+  artifactKey: Guid(8d132b50decf7aa429d6d84a9e7a1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_Albedo.tif using Guid(8d132b50decf7aa429d6d84a9e7a1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ba6a4befbc9895a7bd128764a1e96d') in 0.032063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Moss_A/Grass_Moss_A_Height.tif
+  artifactKey: Guid(3602347127593fa418b1a852ae8b4e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Moss_A/Grass_Moss_A_Height.tif using Guid(3602347127593fa418b1a852ae8b4e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d408db87d03583c79a92f571570ea6') in 0.025718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_C_BaseColor.tif
+  artifactKey: Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_C_BaseColor.tif using Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca021867cccd9b53cb8fba40f86d3258') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_C_Thickness.tif
+  artifactKey: Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Textures/Grass_C_Thickness.tif using Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0740922e646cf2dfc2b9ef029a6310') in 0.024437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_MaskMap.tif
+  artifactKey: Guid(6bb37dde39da9b04eb31348c5aba38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Terrain/Textures/Grass_Soil_A/Grass_Soil_A_MaskMap.tif using Guid(6bb37dde39da9b04eb31348c5aba38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9b88d7508f27b44b7952b24f7e458') in 0.034543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.227394 seconds.
+  path: Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Sounds/3D_DeepRattle.prefab
+  artifactKey: Guid(f4da384b50a3b8f42b5b5315740afb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Sounds/3D_DeepRattle.prefab using Guid(f4da384b50a3b8f42b5b5315740afb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc6a022d932cc744397bb7110378fbe') in 0.016966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Sounds/3D_Taps.prefab
+  artifactKey: Guid(5c7ab60be45c27348a11ef4a24df7c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Sounds/3D_Taps.prefab using Guid(5c7ab60be45c27348a11ef4a24df7c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb9040292433f683e92498404d0f075') in 0.012642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab
+  artifactKey: Guid(147d826ca4c5a834a9dfe5db390c47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab using Guid(147d826ca4c5a834a9dfe5db390c47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85b825fdbdaac36e2454343d450626b') in 0.388411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab
+  artifactKey: Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab using Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7163ea7812b8f06a778c508153ffc3c1') in 0.189762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Door_A.prefab
+  artifactKey: Guid(c3eadb1639d503b45a6e0e4d8fd2e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Door_A.prefab using Guid(c3eadb1639d503b45a6e0e4d8fd2e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3a2d436802d2f2d05ba779b226da3a') in 0.068328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.096479 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Grass_C.prefab
+  artifactKey: Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/Grass_C.prefab using Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfb0d008fca12dbe3d43e6d5eb0362e') in 1.977450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/GrassDry_B.prefab
+  artifactKey: Guid(9e8508e3025d9c844810b83c5607c09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/GrassDry_B.prefab using Guid(9e8508e3025d9c844810b83c5607c09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924b22baf8cc90f0b1b02a1ff98312fd') in 0.067209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/GrassDry_D.prefab
+  artifactKey: Guid(8aa8def6286fc784ba128570ec475974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All_mesh_Assets/TerrainDemoScene_URP/Prefabs/Details/GrassDry_D.prefab using Guid(8aa8def6286fc784ba128570ec475974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f060279f5937b19c2fdeb1f651d3868e') in 0.067625 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
